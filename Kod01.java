@@ -20,6 +20,6 @@ public class Kod01 {
             System.out.println(B[i]);
         }
 
-        String[] C = new String(10);
+       //String[] C = new String(10);
     }
 }

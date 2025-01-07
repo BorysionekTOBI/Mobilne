@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Co lubisz?"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/chkPilka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Grać w piłkę nożną"
+        />
+
+    <CheckBox
+        android:id="@+id/chkKsiazka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Czytać książki"
+        />
+
+    <CheckBox
+        android:id="@+id/chkMuzyka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Słuchać muzykę"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wybirz płeć: "
+        />
+
+    <RadioGroup
+        android:id="@+id/rdPlec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mężczyzna"/>
+
+        <RadioButton
+            android:id="@+id/rdK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kobieta"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnWyslij"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wyslij"
+        />
+
+    <TextView
+        android:id="@+id/txtWynik"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_margin="14dp" />
+
+</LinearLayout>
